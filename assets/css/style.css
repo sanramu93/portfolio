@@ -458,13 +458,6 @@ section {
   bottom: 0;
 }
 
-.project-img {
-  width: 800px;
-  height: 200px;
-  object-fit: cover;
-  object-position: center;
-}
-
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/

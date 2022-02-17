@@ -27,7 +27,7 @@ h6 {
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /*--------------------------------------------------------------
@@ -320,6 +320,7 @@ section {
 .about .content ul li {
   margin-bottom: 20px;
   display: flex;
+  font-size: 18px;
   align-items: center;
 }
 .about .content ul strong {
@@ -336,9 +337,12 @@ section {
 }
 
 .btn-download-cv {
-  margin-top: 28px;
+  margin-top: 48px;
 }
 
+.about-me-info p {
+  font-size: 18px;
+}
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/

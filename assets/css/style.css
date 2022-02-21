@@ -222,6 +222,7 @@ p {
   left: 0;
   right: 0;
   z-index: 1;
+  height: 100%;
 }
 #hero .hero-container {
   position: relative;

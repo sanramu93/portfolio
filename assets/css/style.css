@@ -345,9 +345,9 @@ section {
   margin: 0 auto;
   max-width: 800px;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
   row-gap: 1em;
-  column-gap: 1.5em;
+  column-gap: 2em;
   align-items: center;
 }
 

@@ -1,3 +1,5 @@
+/* Logos: https://worldvectorlogo.com/ */
+
 @import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap");
 /*--------------------------------------------------------------
 # General
@@ -342,16 +344,27 @@ section {
 .skills-logos {
   margin: 0 auto;
   max-width: 800px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(70px, 1fr));
+  row-gap: 1em;
+  column-gap: 1.5em;
   align-items: center;
 }
 
+.skills figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0;
+}
+
 .skills figure img {
-  width: 60px;
-  padding: 0 10px;
-  height: auto;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+  justify-self: center;
 }
 
 .skills figcaption {
